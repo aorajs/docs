@@ -6,6 +6,9 @@ export default defineConfig({
   outputPath: 'dist',
   base: '/',
   publicPath: '/',
+  menus: {
+    '/docs': [],
+  },
   navs: [
     null,
     {
